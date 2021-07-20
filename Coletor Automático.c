@@ -1,3 +1,6 @@
+//Ayla Rodrigues e Sofia Kitaeva
+//Coletor Automatico de lixo
+
 #include <stdio.h>
 #include <stdlib.h>
 
