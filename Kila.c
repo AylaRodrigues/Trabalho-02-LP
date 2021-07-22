@@ -33,7 +33,7 @@ contador* InsereCont(void* x, contador *lista){
 	}	
 }
 
-void Busca(void* x, void* y, contador *lista){
+void Atualiza(void* x, void* y, contador *lista){
 	contador* aux = lista;
 	contador* aux2 = lista->prox;
     while(aux2!=NULL && aux2->endereco!=x){
@@ -83,7 +83,7 @@ void* atrib2(void* x, void* y, contador* lista){
 	/*printf("DENTRO DE ATRIB.\n");
 	printf("End. registrado: x=%d, y=%d\n", x, y);
 	printf("End.:x=%d, y=%d\n\n", &x, &y);*/
-	Busca(x, y, lista);
+	Atualiza(x, y, lista);
 	x=y;
 	
 	return x;	
